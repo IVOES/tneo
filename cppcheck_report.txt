@@ -1,0 +1,164 @@
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:562:5: warning: Suspicious use of ; at the end of 'while' statement. [suspiciousSemicolon]
+    while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+    ^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:857:23: style:inconclusive: Boolean expression 'tmpreg!=0' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+  while((tmpreg != 0) & (timeout-- > 0))
+                      ^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:868:23: style:inconclusive: Boolean expression 'tmpreg!=0' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+  while((tmpreg != 0) & (timeout-- > 0))
+                      ^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:876:23: style:inconclusive: Boolean expression 'tmpreg!=0' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+  while((tmpreg != 0) & (timeout-- > 0))
+                      ^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:884:23: style:inconclusive: Boolean expression 'tmpreg!=0' is used in bitwise operation. Did you mean '&&'? [bitwiseOnBoolean]
+  while((tmpreg != 0) & (timeout-- > 0))
+                      ^
+src/core/tn_dqueue.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 64 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_dqueue.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_eventgrp.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 65 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_eventgrp.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_fmem.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 64 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_fmem.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_list.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 47 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_list.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_mutex.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 67 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_mutex.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_sem.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 64 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_sem.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_sys.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 72 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_sys.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_tasks.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 68 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_tasks.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_timer.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 63 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_timer.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_timer_dyn.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 64 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_timer_dyn.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/core/tn_timer_static.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 66 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/core/tn_timer_static.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+src/tn_app_check.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 73 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+src/tn_app_check.c:0:0: information: This file is not analyzed. Cppcheck failed to extract a valid configuration. Use -v for more details. [noValidConfiguration]
+
+^
+stuff/tmp_src/core/tn_exch.c:202:8: style: The scope of the variable 'sr_saved' can be reduced. [variableScope]
+   int sr_saved;
+       ^
+stuff/tmp_src/core/tn_exch.c:223:8: style: The scope of the variable 'sr_saved' can be reduced. [variableScope]
+   int sr_saved;
+       ^
+stuff/tmp_src/core/tn_exch.c:247:8: style: The scope of the variable 'sr_saved' can be reduced. [variableScope]
+   int sr_saved;
+       ^
+stuff/tmp_src/core/tn_exch_link_queue.c:193:0: error: failed to expand '_check_param_create', Wrong number of parameters for macro '_check_param_create'. [preprocessorErrorDirective]
+   enum TN_RCode rc = _check_param_create(exch_link_queue, queue, fmem);
+^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic.c:82:0: style: The function 'SysTick_Handler' is never used. [unusedFunction]
+
+^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:414:0: style: The function 'SystemCoreClockUpdate' is never used. [unusedFunction]
+
+^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic/RTE/Device/STM32F407VG/system_stm32f4xx.c:337:0: style: The function 'SystemInit' is never used. [unusedFunction]
+
+^
+examples/basic/arch/pic24/tn_pic24_example_basic.c:292:0: style: The function '_AddressError' is never used. [unusedFunction]
+
+^
+examples/basic/arch/pic24/tn_pic24_example_basic.c:316:0: style: The function '_DefaultInterrupt' is never used. [unusedFunction]
+
+^
+examples/basic/arch/pic24/tn_pic24_example_basic.c:304:0: style: The function '_MathError' is never used. [unusedFunction]
+
+^
+examples/basic/arch/pic24/tn_pic24_example_basic.c:310:0: style: The function '_OscillatorFail' is never used. [unusedFunction]
+
+^
+examples/basic/arch/pic24/tn_pic24_example_basic.c:298:0: style: The function '_StackError' is never used. [unusedFunction]
+
+^
+examples/basic/arch/pic32/tn_pic32_example_basic.c:288:0: style: The function '_general_exception_handler' is never used. [unusedFunction]
+
+^
+src/arch/cortex_m/tn_arch_cortex_m_c.c:121:0: style: The function '_tn_arch_stack_init' is never used. [unusedFunction]
+
+^
+src/arch/pic24_dspic/tn_arch_pic24_c.c:61:0: style: The function '_tn_arch_sys_start' is never used. [unusedFunction]
+
+^
+examples/basic/arch/cortex_m/stm32f4-discovery/tn_stm32f4_example_basic.c:96:0: style: The function 'fputc' is never used. [unusedFunction]
+
+^
+src/arch/pic32/tn_arch_pic32.c:265:0: style: The function 'tn_arch_int_en' is never used. [unusedFunction]
+
+^
+src/arch/pic24_dspic/tn_arch_pic24_c.c:148:0: style: The function 'tn_arch_sched_dis_save' is never used. [unusedFunction]
+
+^
+src/arch/pic24_dspic/tn_arch_pic24_c.c:160:0: style: The function 'tn_arch_sched_restore' is never used. [unusedFunction]
+
+^
+stuff/tmp_src/core/tn_exch.c:143:0: style: The function 'tn_exch_create' is never used. [unusedFunction]
+
+^
+stuff/tmp_src/core/tn_exch.c:199:0: style: The function 'tn_exch_delete' is never used. [unusedFunction]
+
+^
+stuff/tmp_src/core/tn_exch_link_queue.c:187:0: style: The function 'tn_exch_link_queue_create' is never used. [unusedFunction]
+
+^
+stuff/tmp_src/core/tn_exch_link_queue.c:213:0: style: The function 'tn_exch_link_queue_delete' is never used. [unusedFunction]
+
+^
+stuff/tmp_src/core/tn_exch.c:218:0: style: The function 'tn_exch_read' is never used. [unusedFunction]
+
+^
+stuff/tmp_src/core/tn_exch.c:241:0: style: The function 'tn_exch_write' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
